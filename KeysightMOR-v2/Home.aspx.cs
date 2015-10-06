@@ -369,7 +369,7 @@ namespace KeysightMOR
             lnkDelivery.Text = "Edit";
 
             lnkResponsiveness.NavigateUrl = "~/DataEntry/Responsiveness/R1TabEntry.aspx";
-            lnkDelivery.NavigateUrl = "~/DataEntry/Delivery/D1TabEntry.aspx";
+            lnkDelivery.NavigateUrl = "~/DataEntry/Delivery/DTabEntry.aspx";
             lnkBusiness.NavigateUrl = "~/DataEntry/Business/B1TabEntry.aspx";
 
             if (status == "Closed")
